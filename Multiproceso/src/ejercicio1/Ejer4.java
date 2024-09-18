@@ -7,7 +7,7 @@ public class Ejer4 {
 
 	public static void main(String[] args) {
 
-		ProcessBuilder pb = new ProcessBuilder("CMD", "/c", "Taskmgr");
+		ProcessBuilder pb = new ProcessBuilder("CMD", "/c", "Tasklist");
 		try {
 			Process p = pb.start();
 
